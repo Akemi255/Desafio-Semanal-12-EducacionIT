@@ -29,16 +29,16 @@ main {
 
 form {
     margin-top: 20px;
-    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco semi-transparente */
+    background-color: rgba(255, 255, 255, 0.8); 
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    opacity: 0.9; /* Ajusta la opacidad según sea necesario */
-    transition: opacity 0.3s ease; /* Agregamos una transición para suavizar el cambio de opacidad */
+    opacity: 0.9; 
+    transition: opacity 0.3s ease;
 }
 
 form:hover {
-    opacity: 1; /* Opacidad completa al pasar el cursor sobre el formulario */
+    opacity: 1; 
 }
 
 label {
@@ -72,7 +72,6 @@ button:hover {
     margin-top: 20px;
 }
 
-/* Estilos para la lista de películas en forma de tarjetas con grid */
 .movie-list {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -92,7 +91,7 @@ button:hover {
 .movie-card::before {
     content: "";
     display: block;
-    padding-top: 150%; /* Aspect ratio 2:3 (ajustar según sea necesario) */
+    padding-top: 150%; 
     background-size: cover;
     background-position: center;
 }
@@ -107,10 +106,10 @@ button:hover {
 }
 
 .image-container {
-    height: 150px; /* Altura deseada */
+    height: 150px; 
     background-size: cover;
     background-position: center;
-    transition: transform 0.3s ease; /* Agregamos la transición para la transformación */
+    transition: transform 0.3s ease; 
 }
 
 .movie-container:hover{
@@ -128,12 +127,12 @@ button:hover {
     justify-content: flex-end;
     padding: 20px;
     box-sizing: border-box;
-    opacity: 0; /* Oculta el contenido inicialmente */
+    opacity: 0; 
     transition: opacity 0.3s ease;
 }
 
 .movie-card:hover .movie-card-content {
-    opacity: 1; /* Muestra el contenido al pasar el cursor */
+    opacity: 1;
 }
 
 .movie-card h3,
@@ -143,7 +142,7 @@ button:hover {
     margin: 0;
 }
 
-/* Estilos adicionales para la lista de películas */
+
 #movieList div {
     margin-bottom: 20px;
 }

@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', function () {
             year: 1999,
             imageUrl: 'https://upload.wikimedia.org/wikipedia/en/c/c1/The_Matrix_Poster.jpg'
         },
-        // Puedes agregar más películas aquí
+       
     ];
 
     function renderMovies(movieArray) {
